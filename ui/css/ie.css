@@ -1,0 +1,5 @@
+/* IE6 */
+* html .group {height: 1%;}
+
+/*IE7 */
+*:first-child+html .group {min-height: 1px;}

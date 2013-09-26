@@ -1,0 +1,43 @@
+@import url("960.css");
+
+/* Project specific style */
+
+body{background-color:#efefef;}
+
+
+#home .content p {font-size:18px;}
+#home .content #nav{margin-bottom:10px;}
+
+#header{padding:20px 0 0 0;background: url(../images/playground-sil.gif) no-repeat 95% 100%;}
+#header h1{float:left;width:946px;margin-bottom:3px;}
+#header h1 a{background:transparent url('../images/logo.gif') no-repeat;display:block;height:64px;overflow:hidden;text-indent:-2000px;width:600px;}
+
+.content #footer{background:#3A53A5;color:#fff;text-align:center;margin-bottom:20px;padding:15px 0;
+	/*border-radius:25px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;*/ }
+.content p#footer{font-size:13px;}
+.content h6{color:#aaa;text-align:center;font-size:13px;font-weight:normal;}
+
+.content #nav {background:#3A53A5;color:#fff;margin-bottom:20px;
+	/*border-radius:25px;
+	-webkit-border-radius:25px;
+	-moz-border-radius:25px;*/ }
+.content #nav ul{margin:13px 0 9px 0;}
+.content #nav li{display: inline;list-style-type: none;padding:0 15px;font-size:18px;}
+.content #nav a:link{color:#fff;text-decoration:none;}
+.content #nav a:visited{color:#fff;text-decoration:none;}
+.content #nav a:hover{color:#cc9;}
+.content #nav a.on{color:#cc9;border-bottom:1px solid #cc9;}
+
+#contact label {float:left;width:150px;}
+#contact p.send {text-align:center;}
+
+.content .intro{padding-top:40px;}
+
+.content dt{font-size:19px;color:#444;}
+.content dd{font-size:17px;color:#666;margin-bottom:10px;}
+
+#products .content .logo {margin-left:55px;}
+
+#projectmap{margin-bottom:20px;}

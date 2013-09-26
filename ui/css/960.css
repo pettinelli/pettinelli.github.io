@@ -1,0 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}
+
+/* 960 Grid System ~ http://960.gs/ Licensed under GPL and MIT. */
+
+/* Basic HTML */
+body{font:13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;}
+a:focus{outline:1px dotted invert;}
+hr{border:0 #ccc solid;border-top-width:1px;clear:both;height:0;}
+
+/* Headings */
+h1{font-size:25px;}
+h2{font-size:25px;}
+h3{font-size:19px;color:#444;}
+h4{font-size:17px;color:#666;}
+h5{font-size:17px;}
+h6{font-size:15px;}
+
+/* Spacing */
+ol{list-style:decimal;}
+ul{list-style:circle;}
+li{margin-left:30px;}
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:20px;}
+
+/* Containers */
+.content{margin-left:auto;margin-right:auto;width:960px;}
+
+/* Grid >> Global */
+.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16{display:inline;float:left;margin-left:10px;margin-right:10px;}
+.content .grid_4{width:220px;}
+.content .grid_8{width:460px;}
+.content .grid_12{width:700px;}
+.content .grid_16{width:940px;}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last) */
+.alpha{margin-left:0;}
+.omega{margin-right:0;}
+
+/* Grid */
+.content .grid_1{width:40px;}
+.content .grid_2{width:100px;}
+.content .grid_3{width:160px;}
+.content .grid_5{width:280px;}
+.content .grid_6{width:340px;}
+.content .grid_7{width:400px;}
+.content .grid_9{width:520px;}
+.content .grid_10{width:580px;}
+.content .grid_11{width:640px;}
+.content .grid_13{width:760px;}
+.content .grid_14{width:820px;}
+.content .grid_15{width:880px;}
+
+/* Prefix Extra Space >> Global */
+.content .prefix_4{padding-left:240px;}
+.content .prefix_8{padding-left:480px;}
+.content .prefix_12{padding-left:720px;}
+
+/* Prefix Extra Space */
+.content .prefix_1{padding-left:60px;}
+.content .prefix_2{padding-left:120px;}
+.content .prefix_3{padding-left:180px;}
+.content .prefix_5{padding-left:300px;}
+.content .prefix_6{padding-left:360px;}
+.content .prefix_7{padding-left:420px;}
+.content .prefix_9{padding-left:540px;}
+.content .prefix_10{padding-left:600px;}
+.content .prefix_11{padding-left:660px;}
+.content .prefix_13{padding-left:780px;}
+.content .prefix_14{padding-left:840px;}
+.content .prefix_15{padding-left:900px;}
+
+/* Suffix Extra Space >> Global */
+.content .suffix_4{padding-right:240px;}
+.content .suffix_8{padding-right:480px;}
+.content .suffix_12{padding-right:720px;}
+
+/* Suffix Extra Space */
+.content .suffix_1{padding-right:60px;}
+.content .suffix_2{padding-right:120px;}
+.content .suffix_3{padding-right:180px;}
+.content .suffix_5{padding-right:300px;}
+.content .suffix_6{padding-right:360px;}
+.content .suffix_7{padding-right:420px;}
+.content .suffix_9{padding-right:540px;}
+.content .suffix_10{padding-right:600px;}
+.content .suffix_11{padding-right:660px;}
+.content .suffix_13{padding-right:780px;}
+.content .suffix_14{padding-right:840px;}
+.content .suffix_15{padding-right:900px;}
+
+/* Clear Floated Elements */
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.group:after{visibility:hidden;display:block;content:".";clear:both;height:0;}
+
+/* CSS-based file icons */
+a[href$=".pdf"] {background: url(../images/icon-pdf.png) no-repeat right center; padding:0 14px 0 0;}
+a[href$=".doc"], a[href$=".rtf"] {background: url(../images/icon-document.png) no-repeat right center; padding:0 15px 0 0;}
+a[href$=".xls"] {background: url(../images/icon-spreadsheet.png) no-repeat right center; padding:0 15px 0 0;}
+a[href^="mailto:"] {background: url(../images/icon-email.png) no-repeat right center; padding:0 20px 0 0;}
+a[href$=".mp3"] {background: url(../images/icon-audio.png) no-repeat right center; padding:0 20px 0 0;}
+a[href^="http:"], a[href^="https:"] {background: url(../images/icon-external.png) right center no-repeat;padding-right: 14px;}
+a[href^="http://www.pettinelliandassociates.com"] {background: transparent;padding-right: 0px;}
+

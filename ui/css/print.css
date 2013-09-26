@@ -1,0 +1,6 @@
+@import url("screen.css");
+
+/* Project specific print style */
+body{background-color:#fff;}
+p{color:#000;}
+#nav, #footer{display:none;}
